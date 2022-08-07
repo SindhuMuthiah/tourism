@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&family=Josefin+Sans&family=Poppins:wght@300;400&display=swap');
+.box {
+text-align:center;
+margin: 10rem;
+padding: 1rem;
+width: auto;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+border-radius: 1rem; 
+}
+body{
+background-color: #FF6A88;
+background-image: linear-gradient(90deg,#FF9A8B 0%,#FF6A88 55%,#FF99AC 100%);
+}
+header > p {
+font-size: 60px;
+}
+header {
+    margin: 1rem;
+    padding: .5rem;
+    font-size: xx-large;
+    font-family: 'Sora', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    cursor: default;
+}
+.btn{
+margin: 3rem;
+flex-wrap: wrap;
+}
+.btn > input{
+margin: 0 10px;
+padding: 10px;
+border-radius: 5px;
+border-width: 1.5px;
+font-size: medium;
+color: #FF6A88;
+font-family: 'Josefin sans', sans-serif;
+box-shadow: 0 1px 2px #FF6A88;
+background-color: white;
+border-color: #FF6A88;
+}
+.input > input{
+padding: 5px;
+margin: 0 4px;
+font-size: 1rem;
+caret-color: blue;
+border-color: #FF6A88;
+}
+.btn > input:hover{
+background-color: #FF6A88;
+color: #fff;
+box-shadow: 0 2px 4px #FF6A88;
+}
+.output {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin sans', sans-serif;
+    text-align: center;
+}
+
+#location {
+    font-size: xx-large;
+    font-family: 'Sora', sans-serif;
+}
+
+.output > div > p {
+    font-size: 1.5rem;
+}
+
+footer {
+    margin: 1rem;
+    padding: .5rem;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cont > span {
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+span:hover {
+    color: #FF6A88;
+    cursor: default;
+}
+
+#weather {
+    margin: 50px 10px 10px 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+#weather:hover {
+    color: #FF6A88;
+    transition: ease .3s;
+}
+
+
+#cpy:hover {
+    color: #FF6A88;
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 362px) {
+    .btn > input {
+        margin: 15px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        margin: 2rem 1rem;
+    }
+
+    .btn > input {
+        background-color: #FF6A88;
+        color: white;
+        box-shadow: 0 2px 4px #FF6A88;
+    }
+
+    #cpy {
+        color: #FF6A88;
+    }
+}
